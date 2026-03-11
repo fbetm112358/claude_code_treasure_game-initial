@@ -22,7 +22,14 @@
       "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && gh --version 2>&1)",
       "Bash(where.exe gh:*)",
       "Bash(gh --version)",
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "Bash(cd \"C:/Users/fbetm/claude_code_project_demo/claude_code_treasure_game-initial\" && gh repo create claude_code_treasure_game-initial --public --source=. --push)",
+      "Bash(cd \"C:/Users/fbetm/claude_code_project_demo/claude_code_treasure_game-initial\" && gh repo view --json name,owner,url)",
+      "Bash(cd \"C:/Users/fbetm/claude_code_project_demo/claude_code_treasure_game-initial\" && npx vite build --base=/claude_code_treasure_game-initial/ 2>&1)",
+      "Bash(cd \"C:/Users/fbetm/claude_code_project_demo/claude_code_treasure_game-initial\" && npx gh-pages --version 2>&1 || npm install --save-dev gh-pages)",
+      "Bash(cd \"C:/Users/fbetm/claude_code_project_demo/claude_code_treasure_game-initial\" && npx gh-pages -d build 2>&1)",
+      "Bash(gh --version && gh auth status && git -C \"C:/Users/fbetm/claude_code_project_demo/claude_code_treasure_game-initial\" remote -v)",
+      "Bash(cd \"C:/Users/fbetm/claude_code_project_demo/claude_code_treasure_game-initial\" && MSYS_NO_PATHCONV=1 npx vite build --base=/claude_code_treasure_game-initial/ 2>&1)"
     ]
   }
 }
