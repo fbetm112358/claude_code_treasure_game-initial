@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && npm run dev)",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && npm run dev:all 2>&1)",
+      "Bash(taskkill /F /IM node.exe 2>&1)",
+      "Bash(taskkill //F //IM node.exe 2>&1)",
+      "Bash(curl -s -X POST http://localhost:4000/api/register -H \"Content-Type: application/json\" -d '{\"email\":\"test@example.com\",\"password\":\"password123\"}')",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && npm run dev:all)",
+      "Bash(sleep 4 && curl -s http://localhost:4000/api/scores && curl -s http://localhost:3000 | head -c 100)",
+      "Bash(pkill -f \"vite\" 2>/dev/null; pkill -f \"tsx\" 2>/dev/null; echo \"done\")",
+      "Bash(netstat -ano | grep -E \":3000|:4000\")",
+      "Bash(taskkill /PID 25328 /F && taskkill /PID 23276 /F)",
+      "Bash(cmd /c \"taskkill /PID 25328 /F & taskkill /PID 23276 /F\")",
+      "Bash(cmd //c \"taskkill /PID 25328 /F & taskkill /PID 23276 /F\")",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && vercel --version 2>&1)",
+      "Bash(vercel --version)",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && npm run build 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && vercel build && vercel deploy --prebuilt --prod 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && vercel --prebuilt --prod 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && vercel build --prod && vercel deploy --prebuilt --prod 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\fbetm\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" && gh --version 2>&1)",
+      "Bash(where.exe gh:*)",
+      "Bash(gh --version)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
